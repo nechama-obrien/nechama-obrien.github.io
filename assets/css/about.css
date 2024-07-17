@@ -1,0 +1,35 @@
+/* assets/css/about.css */
+
+/* Custom styles for About page */
+.about-intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about-intro h1 {
+    font-size: 2.5rem;
+    color: #3b572f; /* Earthy green color */
+}
+
+.about-herbalist {
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+.bio-image {
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1rem;
+    border: 5px solid #ccc;
+}
+
+blockquote {
+    font-style: italic;
+    color: #666;
+    border-left: 5px solid #3b572f;
+    padding-left: 1rem;
+    margin: 1rem 0;
+}
