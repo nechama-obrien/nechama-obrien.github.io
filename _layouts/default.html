@@ -6,6 +6,9 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+  {% if page.title == "About" %}
+  <link rel="stylesheet" href="{{ '/assets/css/about.css' | relative_url }}">
+  {% endif %}
 </head>
 <body>
   {% include header.html %}

@@ -4,15 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<section class="about-intro">
+  <h1>About Namaste Herbals</h1>
+  <p>Welcome to Namaste Herbals, where we bring the best of nature to you.</p>
+</section>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+<section class="about-herbalist">
+  <h2>Meet the Herbalist</h2>
+  <img src="{{ '/assets/images/herbalist.jpg' | relative_url }}" alt="Herbalist" class="bio-image">
+  <p>Hello! My name is [Your Name], and I am passionate about herbal medicine...</p>
+</section>
